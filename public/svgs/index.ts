@@ -1,0 +1,12 @@
+export { default as Docker } from "./Docker.svg";
+export { default as Git } from "./Git.svg";
+export { default as Jest } from "./Jest.svg";
+export { default as Nest } from "./Nestjs.svg";
+export { default as Next } from "./Nextjs.svg";
+export { default as Node } from "./Nodejs.svg";
+export { default as Prisma } from "./Prisma.svg";
+export { default as Python } from "./Python.svg";
+export { default as React } from "./Reactjs.svg";
+export { default as Redux } from "./Reduxjs.svg";
+export { default as Sql } from "./Sql.svg";
+export { default as StyledComponents } from "./Styled_components.svg";
