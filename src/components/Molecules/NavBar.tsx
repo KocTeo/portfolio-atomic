@@ -37,7 +37,7 @@ const NavBar: React.FC = () => {
         onClick={() => toggleHidden()}
       />
       <ul
-        className="hidden bg-slate-800 justify-center md:flex md:bg-transparent"
+        className="hidden absolute w-full bg-slate-800 justify-center md:flex md:bg-transparent md:static"
         id="links"
       >
         {links.map((link) => (
