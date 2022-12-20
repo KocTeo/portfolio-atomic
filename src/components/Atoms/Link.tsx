@@ -1,15 +1,15 @@
 import Link from "next/link";
 import React from "react";
 
-interface LinkProps {
+type LinkProps = {
   href: string;
-  name: string;
-}
+  children: React.ReactNode;
+};
 
-const ALink: React.FC<LinkProps> = ({ href, name }) => {
+const ALink: React.FC<LinkProps> = ({ href, children }) => {
   return (
     <Link href={href} className="text-3xl text-white">
-      {name}
+      {children}
     </Link>
   );
 };
