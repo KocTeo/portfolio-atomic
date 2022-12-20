@@ -41,7 +41,7 @@ const NavBar: React.FC = () => {
         id="links"
       >
         {links.map((link) => (
-          <li key={link.name} className="p-4 md:mx-8">
+          <li key={link.name} className="p-4 my-4 md:mx-8">
             <Link href={link.path}>{link.name}</Link>
             <hr className="mt-2 md:hidden" />
           </li>
