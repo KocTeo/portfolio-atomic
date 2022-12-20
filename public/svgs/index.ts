@@ -1,6 +1,7 @@
 export { default as Docker } from "./Docker.svg";
 export { default as Git } from "./Git.svg";
 export { default as Jest } from "./Jest.svg";
+export { default as MenuIcon } from "./Menu_icon.svg";
 export { default as Nest } from "./Nestjs.svg";
 export { default as Next } from "./Nextjs.svg";
 export { default as Node } from "./Nodejs.svg";

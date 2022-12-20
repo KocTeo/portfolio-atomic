@@ -8,7 +8,7 @@ type LinkProps = {
 
 const ALink: React.FC<LinkProps> = ({ href, children }) => {
   return (
-    <Link href={href} className="text-3xl text-white">
+    <Link href={href} className="text-3xl text-white hover:text-slate-900">
       {children}
     </Link>
   );
