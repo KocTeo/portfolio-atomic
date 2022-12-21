@@ -2,6 +2,7 @@ import { Inter } from "@next/font/google";
 import Head from "next/head";
 import About from "src/components/Organisms/About";
 import Hero from "src/components/Organisms/Hero";
+import Portfolio from "src/components/Organisms/Portfolio";
 import Skills from "src/components/Organisms/Skills";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
+        <Portfolio />
       </main>
     </>
   );
