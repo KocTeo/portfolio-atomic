@@ -1,6 +1,3 @@
 {
-  "conventionalCommits.scopes": [
-    "Atoms",
-    "Molecules"
-  ]
+  "conventionalCommits.scopes": ["Atoms", "Molecules", "Organims"]
 }
