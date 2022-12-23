@@ -11,13 +11,13 @@ const Portfolio: React.FC = () => {
           <PortfolioCard
             title="Projeto 1"
             subtitle="Descrição do projeto 1"
-            img="/images/hero_image.jpg"
+            img="/images/coming_soon.jpg"
           />
 
           <PortfolioCard
             title="Projeto 2"
             subtitle="Descrição do projeto 2"
-            img="/images/hero_image.jpg"
+            img="/images/coming_soon.jpg"
           />
         </div>
       </div>
