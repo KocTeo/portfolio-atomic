@@ -1,6 +1,7 @@
 import { Inter } from "@next/font/google";
 import Head from "next/head";
 import About from "src/components/Organisms/About";
+import Footer from "src/components/Organisms/Footer";
 import Hero from "src/components/Organisms/Hero";
 import Portfolio from "src/components/Organisms/Portfolio";
 import Skills from "src/components/Organisms/Skills";
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Skills />
         <Portfolio />
+        <Footer />
       </main>
     </>
   );
